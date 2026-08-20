@@ -1,0 +1,32 @@
+name: katki-yilani
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Yilani uret
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.svg
+
+      - name: output dalina yayinla
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
