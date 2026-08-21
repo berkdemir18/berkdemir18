@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B1F,100:00FF41&height=200&section=header&text=berkdemir18&fontSize=52&fontColor=00FF41&fontAlignY=38&desc=%3E_%20fikirden%20%C3%A7al%C4%B1%C5%9Fan%20%C5%9Feye&descAlignY=60&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B1F,100:00FF41&height=200&section=header&text=berkdemir18&fontSize=52&fontColor=00FF41&fontAlignY=38&desc=%3E_%20blue%20team%20yolunda%20%C2%B7%20ara%C3%A7%20yaparak%20%C3%B6%C4%9Freniyorum&descAlignY=60&descSize=17" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=00FF41&center=true&vCenter=true&width=760&lines=%3E_%20initializing%20workspace...;%3E_%20yapay%20zek%C3%A2%20ile%20ara%C3%A7%20%C3%BCretiyorum;%3E_%20siber%20g%C3%BCvenlik%20%C3%B6%C4%9Freniyorum;%3E_%20access%20granted." alt="terminal" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=00FF41&center=true&vCenter=true&width=780&lines=%3E_%20booting%20blue%20team%20stack...;%3E_%20hedef%3A%20SOC%20L1%20analisti;%3E_%20%C3%B6nce%20anla%2C%20sonra%20savun;%3E_%20access%20granted." alt="terminal" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/STATUS-ONLINE-00FF41?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/MODE-LEARNING-00E5FF?style=for-the-badge&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/LICENSE-MIT-00FF41?style=for-the-badge&labelColor=0d1117&logo=opensourceinitiative&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/TARGET-SOC%20L1%20ANALYST-00FF41?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/TRACK-BLUE%20TEAM-00E5FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/PHASE-0%20%C2%B7%20TEMEL-FFB000?style=for-the-badge&labelColor=0d1117" />
 <img src="https://komarev.com/ghpvc/?username=berkdemir18&style=for-the-badge&color=00FF41&label=TRACE" />
 
 </div>
@@ -24,27 +24,93 @@
 
 ---
 
-## `>_ whoami`
+## `>_ id`
 
 ```console
-$ whoami --verbose
+$ id berk
 
-  rol        : kendi ihtiyacım olan araçları yapan biri
-  yöntem     : yapay zekâ ile eşli geliştirme
-  benim payım: fikir · kapsam · tasarım kararları · "bu böyle olmamış"
-  ai payı    : kodun büyük kısmı
-  ilgi       : siber güvenlik · otomasyon · veri görselleştirme
+uid=2007(berk) gid=100(ankara) groups=blue-team,builders,students
 
-$ cat amac.txt
+$ cat /etc/profile.d/berk.sh
 
-  Hazır bir şey satmak değil —
-  çalışan bir şey çıkarırken öğrenmek.
+  KONUM      = Ankara / Etimesgut
+  OKUL       = Ostim Teknik Üniversitesi — Yönetim Bilişim Sistemleri
+  HEDEF_ROL  = SOC L1 Analisti  →  Blue Team
+  YAKLASIM   = önce anla, sonra savun
+  YONTEM     = yapay zekâ ile eşli geliştirme
+  ILGI       = log analizi · ağ · otomasyon · veri görselleştirme
 
-$ echo "not"
+$ cat /etc/motd
 
-  Yazılım geçmişim yok. Bunu her depoda açıkça yazıyorum,
-  çünkü dürüst olmayan hâli kimseye faydalı değil.
+  Savunma tarafındayım. "Sisteme girmek" değil,
+  sistemin ne zaman girildiğini fark etmek ilgimi çekiyor.
+
+  Öğrenme yöntemim okumak değil, çalışan bir şey çıkarmak.
+  Bu profildeki her depo o yüzden var.
 ```
+
+---
+
+## `>_ systemctl status siber-yol-haritasi`
+
+```console
+● siber-yol-haritasi.service — Blue Team hazırlık planı
+     Loaded: loaded (/home/berk/plan.md; enabled)
+     Active: active (running) since 2026-08-04
+   Progress: 1/38 görev tamamlandı
+```
+
+```text
+┌─ FAZ 0 · TEMEL ─────────────────── AĞU–EYL 2026 ─── 1/8 ──┐
+│ ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12 %   ● devam ediyor   │
+│ Linux · terminal · ağ temelleri · Python · Bandit 0–15    │
+├─ FAZ 1 · İLK TEMAS ─────────────── EKİ 26 – OCA 27 · 0/6 ─┤
+│ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0 %   ○ sırada         │
+│ TryHackMe Pre-Security → Complete Beginner · Cisco NetAcad│
+├─ FAZ 2 · BLUE TEAM ─────────────── ŞUB – HAZ 2027 · 0/5 ──┤
+│ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0 %   ○ sırada         │
+│ TryHackMe SOC L1 · kendi lab'ım · BTK Siber Analist       │
+├─ FAZ 3 · SAHA ──────────────────── HAZ – EYL 2027 · 0/4 ──┤
+│ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0 %   ○ sırada         │
+│ TÜBİTAK BİLGEM yaz kampı · ilk CTF · staj taraması        │
+├─ FAZ 4 · SERTİFİKA & İŞ ────────── 2027 – 2030 ···· 0/5 ──┤
+│ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0 %   ○ sırada         │
+│ CompTIA Security+ · BTL1 · staj · SOC L1                  │
+└───────────────────────────────────────────────────────────┘
+```
+
+> Yüzdeler süslemek için değil. Plan 38 maddeden oluşuyor ve **1'i bitti**.
+> Buraya "uzmanım" yazmak kolaydı; nerede olduğumu yazmak daha faydalı.
+>
+> Planın kendisi açık kaynak: **[siber-yol-haritasi](https://github.com/berkdemir18/siber-yol-haritasi)**
+
+---
+
+## `>_ ls -la /opt/toolbox`
+
+```text
+● kullanıyorum      ◐ öğreniyorum      ○ planda
+
+●  Linux (Ubuntu)      ●  Git / GitHub        ●  VirtualBox
+●  Windows internals   ●  PowerShell          ●  VS Code
+◐  bash / terminal     ◐  Python              ◐  ağ temelleri
+◐  TypeScript          ◐  Rust                ◐  SQLite
+○  Wireshark           ○  Nmap                ○  SIEM / log analizi
+○  Splunk              ○  Suricata            ○  YARA
+```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Ubuntu-0d1117?style=flat-square&logo=ubuntu&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00E5FF" />
+<img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=00E5FF" />
+<img src="https://img.shields.io/badge/Tauri-0d1117?style=flat-square&logo=tauri&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/SQLite-0d1117?style=flat-square&logo=sqlite&logoColor=00E5FF" />
+<img src="https://img.shields.io/badge/PowerShell-0d1117?style=flat-square&logo=powershell&logoColor=00FF41" />
+
+</div>
 
 ---
 
@@ -54,26 +120,26 @@ $ echo "not"
 <tr>
 <td width="50%" valign="top">
 
-### 🛰️ [Kokpit](https://github.com/berkdemir18/Kokpit)
+### 🔎 [File Finder](https://github.com/berkdemir18/File-Finder)
 
-Film/dizi takibi, Notion tarzı notlar, öğrenme yol haritası, hedefler ve hatırlatıcıları tek yerde toplayan **Windows masaüstü uygulaması**.
+NTFS'in ana dosya tablosunu (**MFT**) okuyup kendi indeksini tutan **Windows dosya arama** aracı. USN Journal'ı dinleyerek indeksi canlı tutar.
 
-`Tauri v2` `TypeScript` `Rust`
+`Rust` `Tauri v2` `React` `SQLite`
 
-- Tepside çalışan bildirim sistemi
-- Grafikli istatistik ekranı
-- Obsidian'a dışa aktarma
-- Kurulumsuz taşınabilir sürüm
+- 4,98 milyon dosyada ~0,76 sn arama
+- Kapsayıcı indeks optimizasyonu: 14,9 sn → 0,76 sn
+- Windows servisi + masaüstü uygulaması
+- [Tanıtım sayfası](https://berkdemir18.github.io/File-Finder/)
 
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
-![Desktop](https://img.shields.io/badge/desktop-00E5FF?style=flat-square&labelColor=0d1117)
+![ntfs](https://img.shields.io/badge/NTFS-00E5FF?style=flat-square&labelColor=0d1117)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🛡️ [Siber Yol Haritası](https://github.com/berkdemir18/siber-yol-haritasi)
 
-Siber güvenlik öğrenme yolculuğunu adım adım takip eden **interaktif yol haritası**.
+Yukarıdaki 38 maddelik planın **interaktif hâli**. Kendi ilerlememi takip etmek için yaptım, herkese açık bıraktım.
 
 `HTML` `CSS` `JS`
 
@@ -89,6 +155,23 @@ Siber güvenlik öğrenme yolculuğunu adım adım takip eden **interaktif yol h
 <tr>
 <td width="50%" valign="top">
 
+### 🛰️ [Kokpit](https://github.com/berkdemir18/Kokpit)
+
+Notlar, hedefler, hatırlatıcılar ve **siber güvenlik yol haritamın ilerlemesi** dâhil her şeyi tek yerde toplayan **Windows masaüstü uygulaması**.
+
+`Tauri v2` `TypeScript` `Rust`
+
+- Tepside çalışan bildirim sistemi
+- Grafikli istatistik ekranı
+- Obsidian'a dışa aktarma
+- Kurulumsuz taşınabilir sürüm
+
+![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
+![desktop](https://img.shields.io/badge/desktop-00E5FF?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔮 [Gelecekteki Sen](https://github.com/berkdemir18/Gelecekteki-Sen)
 
 5 yıl sonraki kendinle konuşturan **Android uygulaması**.
@@ -97,12 +180,11 @@ Siber güvenlik öğrenme yolculuğunu adım adım takip eden **interaktif yol h
 
 ![android](https://img.shields.io/badge/android-00FF41?style=flat-square&labelColor=0d1117)
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### 🍦 [Dondurma Sitesi](https://github.com/berkdemir18/berkin-dondurma-sitesi)
 
-Arayüz ve tasarım pratiği için yaptığım küçük bir **web denemesi**.
+Arayüz pratiği için küçük bir **web denemesi**.
 
 `TypeScript`
 
@@ -126,14 +208,14 @@ Arayüz ve tasarım pratiği için yaptığım küçük bir **web denemesi**.
 │  Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2 %  │
 │  JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2 %  │
 │                                                            │
-└─ toplam ~975 KB · 5 depo ──────────────────────────────────┘
+└─ toplam ~975 KB · 6 depo ──────────────────────────────────┘
 ```
 
 > Not: bu tablo depoların içeriğini gösterir, benim bildiğim dilleri değil.
 
 ---
 
-## `>_ tail -f ./aktivite`
+## `>_ tail -f /var/log/berk.log`
 
 <div align="center">
 
@@ -147,13 +229,26 @@ Arayüz ve tasarım pratiği için yaptığım küçük bir **web denemesi**.
 
 ---
 
-## `>_ cat ./ogrenme-listesi`
+## `>_ cat NOTICE`
 
-```diff
-+ [devam ediyor]  ağ temelleri · Linux · terminal alışkanlıkları
-+ [devam ediyor]  otomasyon ve betik yazımı
-! [sırada]        güvenlik açığı temelleri · log analizi
-! [sırada]        veri görselleştirme ve dashboard tasarımı
+```console
+$ cat /home/berk/NOTICE
+
+  [!] Yazılım geçmişim yok.
+
+      Depolarımdaki kodun büyük kısmı yapay zekâ ile yazıldı.
+      Benim payım: fikir, kapsam, tasarım kararları, test
+      ve "bu böyle olmamış" demek.
+
+      Bunu her depoda açıkça yazıyorum. Şişirilmiş bir profil
+      kimseye — en çok da bana — faydalı değil.
+
+  [i] Siber güvenlikte de başlangıçtayım.
+
+      38 maddelik planın 1'i bitti. Buradaki rozetler
+      "biliyorum" değil, "yoldayım" demek.
+
+      Bir yıl sonra bu dosyaya tekrar bak.
 ```
 
 ---
