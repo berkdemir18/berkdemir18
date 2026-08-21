@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B1F,100:00FF41&height=200&section=header&text=berkdemir18&fontSize=52&fontColor=00FF41&fontAlignY=38&desc=%3E_%20siber%20g%C3%BCvenlik%20%C3%B6%C4%9Frenmeye%20yeni%20ba%C5%9Flad%C4%B1m&descAlignY=60&descSize=17" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=780&lines=%3E_%20siber%20g%C3%BCvenlik%20%C3%B6%C4%9Freniyorum;%3E_%20yapay%20zek%C3%A2%20ile%20ara%C3%A7%20%C3%A7%C4%B1kar%C4%B1yorum;%3E_%20hen%C3%BCz%20ba%C5%9Flang%C4%B1%C3%A7taki%C4%B1m." alt="terminal" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=780&lines=%3E_%20siber%20g%C3%BCvenlik%20%C3%B6%C4%9Freniyorum%3B%3E_%20yapay%20zek%C3%A2%20ile%20ara%C3%A7%20%C3%A7%C4%B1kar%C4%B1yorum%3B%3E_%20hen%C3%BCz%20ba%C5%9Flang%C4%B1%C3%A7tay%C4%B1m." alt="terminal" />
 
 <br/>
 
