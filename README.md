@@ -89,14 +89,14 @@ $ cat /etc/motd
 ## `>_ ls -la /opt/toolbox`
 
 ```text
-● kullanıyorum      ◐ öğreniyorum      ○ planda
+[x] kullanıyorum      [~] öğreniyorum      [ ] planda
 
-●  Linux (Ubuntu)      ●  Git / GitHub        ●  VirtualBox
-●  Windows internals   ●  PowerShell          ●  VS Code
-◐  bash / terminal     ◐  Python              ◐  ağ temelleri
-◐  TypeScript          ◐  Rust                ◐  SQLite
-○  Wireshark           ○  Nmap                ○  SIEM / log analizi
-○  Splunk              ○  Suricata            ○  YARA
+[x] Linux (Ubuntu)      [x] Git / GitHub       [x] VirtualBox
+[x] Windows internals   [x] PowerShell         [x] VS Code
+[~] bash / terminal     [~] Python             [~] ağ temelleri
+[~] TypeScript          [~] Rust               [~] SQLite
+[ ] Wireshark           [ ] Nmap               [ ] SIEM / log analizi
+[ ] Splunk              [ ] Suricata           [ ] YARA
 ```
 
 <div align="center">
