@@ -144,13 +144,6 @@ Notlar, hedefler ve hatırlatıcılar için masaüstü uygulaması. Yukarıdaki 
 </td>
 <td width="50%" valign="top">
 
-### 🔮 [Gelecekteki Sen](https://github.com/berkdemir18/Gelecekteki-Sen)
-
-5 yıl sonraki kendinle konuşturan Android uygulaması.
-
-`Kotlin`
-
-<br/>
 
 ### 🍦 [Dondurma Sitesi](https://github.com/berkdemir18/berkin-dondurma-sitesi)
 
