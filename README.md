@@ -107,7 +107,7 @@ YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çık
 
 - Tahminini kendi hatasıyla düzeltiyor, tahmin edemediğinde bunu söylüyor
 - Önerdiği ama açmadığım videoları da sayıyor
-- [v0.11.0](https://github.com/berkdemir18/DemirTube/releases/latest) · 268 test
+- [v0.11.1](https://github.com/berkdemir18/DemirTube/releases/latest) · 268 test
 
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
 
