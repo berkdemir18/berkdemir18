@@ -99,6 +99,21 @@ Hepsi yapay zekâ ile yapıldı. Fikir ve "şöyle olsun" kısmı bana ait.
 <tr>
 <td width="50%" valign="top">
 
+### 📺 [DemirTube](https://github.com/berkdemir18/DemirTube)
+
+YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çıkmıyor. Ne kadarını gerçekten izlediğimi, neye pişman olduğumu ve bir videoyu açmadan önce bana uyup uymadığını söylüyor.
+
+`TypeScript` `React 19` `Manifest V3` `IndexedDB`
+
+- Tahminini kendi hatasıyla düzeltiyor, tahmin edemediğinde bunu söylüyor
+- Önerdiği ama açmadığım videoları da sayıyor
+- [v0.11.0](https://github.com/berkdemir18/DemirTube/releases/latest) · 268 test
+
+![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔎 [File Finder](https://github.com/berkdemir18/File-Finder)
 
 Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutuyor, o yüzden hızlı.
@@ -112,6 +127,8 @@ Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutu
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [Siber Yol Haritası](https://github.com/berkdemir18/siber-yol-haritasi)
@@ -126,8 +143,6 @@ Yukarıdaki planın interaktif hâli. Kendi ilerlememi görmek için yaptım, a�
 ![web](https://img.shields.io/badge/web-00E5FF?style=flat-square&labelColor=0d1117)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🛰️ [Kokpit](https://github.com/berkdemir18/Kokpit)
@@ -142,8 +157,9 @@ Notlar, hedefler ve hatırlatıcılar için masaüstü uygulaması. Yukarıdaki 
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-
 
 ### 🍦 [Dondurma Sitesi](https://github.com/berkdemir18/berkin-dondurma-sitesi)
 
@@ -162,14 +178,13 @@ Arayüz denemesi için küçük bir site.
 ```text
 ┌─ depolardaki dil dağılımı ─────────────────────────────────┐
 │                                                            │
-│  TypeScript  ███████████████████████████░░░░░░░░░  59.2 %  │
-│  Kotlin      ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  16.2 %  │
-│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  12.7 %  │
-│  HTML        ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.5 %  │
-│  Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2 %  │
-│  JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.2 %  │
+│  TypeScript  █████████████████████████░░░░░░░░░░░  70.0 %  │
+│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.1 %  │
+│  Rust        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.5 %  │
+│  JavaScript  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.0 %  │
+│  HTML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.5 %  │
 │                                                            │
-└─ toplam ~975 KB · 6 depo ──────────────────────────────────┘
+└─ toplam ~2,1 MB · 6 depo ──────────────────────────────────┘
 ```
 
 > Bu tablo depoların içeriğini gösterir, benim bildiğim dilleri değil.
