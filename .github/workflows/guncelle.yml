@@ -1,0 +1,28 @@
+name: profili-guncelle
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Yayinlari ve dil dagilimini yenile
+        run: node .github/scripts/guncelle.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Degistiyse commit at
+        run: |
+          if git diff --quiet README.md; then echo "degisiklik yok"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Yayinlari ve dil dagilimini otomatik guncelle"
+          git push

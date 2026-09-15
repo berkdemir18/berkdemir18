@@ -93,7 +93,7 @@ Siber güvenlik öğrenmek için kendime çıkardığım yol haritası.
 
 ## `>_ ls -la ./projeler`
 
-Hepsi yapay zekâ ile yapıldı. Fikir ve "şöyle olsun" kısmı bana ait.
+Hepsi yapay zekâ ile yapıldı. Fikir, "şöyle olsun" ve deneme kısmı bana ait.
 
 <table>
 <tr>
@@ -101,14 +101,14 @@ Hepsi yapay zekâ ile yapıldı. Fikir ve "şöyle olsun" kısmı bana ait.
 
 ### 📺 [DemirTube](https://github.com/berkdemir18/DemirTube)
 
-YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çıkmıyor. Ne kadarını gerçekten izlediğimi, neye pişman olduğumu ve bir videoyu açmadan önce bana uyup uymadığını söylüyor.
+YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çıkmıyor. Ne kadarını gerçekten izlediğimi, neye pişman olduğumu ve bir videonun bana uyup uymadığını söylüyor.
 
 `TypeScript` `React 19` `Manifest V3` `IndexedDB`
 
-- Tahminini kendi hatasıyla düzeltiyor, tahmin edemediğinde bunu söylüyor
-- Önerdiği ama açmadığım videoları da sayıyor
-- [v0.11.1](https://github.com/berkdemir18/DemirTube/releases/latest) · 268 test
+- Tahminini kendi hatasıyla düzeltiyor, emin değilse bunu söylüyor
+- 1500 videoluk kütüphanede panel açılışı 6,8 sn → 0,9 sn
 
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/DemirTube?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/DemirTube/releases/latest)
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
 
 </td>
@@ -122,8 +122,72 @@ Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutu
 
 - ~5 milyon dosyada saniyenin altında arama
 - Arka planda çalışan servis + masaüstü uygulaması
-- [Tanıtım sayfası](https://berkdemir18.github.io/File-Finder/)
 
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/File-Finder?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/File-Finder/releases/latest)
+[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/File-Finder/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📅 [Ajanda](https://github.com/berkdemir18/Ajanda)
+
+Windows için kişisel takvim. Etkinlikler bilgisayardaki bir SQLite dosyasında duruyor, Google Takvim'e bağlanabiliyor.
+
+`Tauri v2` `TypeScript` `Rust` `SQLite`
+
+- Türkçe yazarak ekleme: `cuma 14:30 vize 2 saat`
+- İnternet yokken de çalışıyor
+
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/Ajanda?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/Ajanda/releases/latest)
+[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/Ajanda/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧹 [agents-sync](https://github.com/berkdemir18/agents-sync)
+
+`CLAUDE.md`, `AGENTS.md`, `.cursorrules` gibi yapay zekâ talimat dosyalarındaki kırık yolları bulan komut satırı aracı. Dosya taşındıysa nereye gittiğini de söylüyor.
+
+`Node.js` `CLI` `sıfır bağımlılık`
+
+- Kendi derdimden çıktı: asistanlarım taşınmış notları sessizce bulamıyordu
+- `agents-sync apply` emin olduklarını kendisi düzeltiyor
+
+[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/agents-sync/)
+![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ✅ [İlerleme](https://github.com/berkdemir18/ilerleme)
+
+Kurs, kitap, proje ne takip ediyorsan tahta aç, maddeleri yapıştır, tik at. 14 gün dokunulmayan tahtaya "soğumuş" damgası basıyor.
+
+`Python` `HTML`
+
+- Tek exe, kurulum yok
+- Veri düz metin JSON, her yazmada yedek
+
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/ilerleme?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/ilerleme/releases/latest)
+[![demo](https://img.shields.io/badge/canl%C4%B1%20deneme-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/ilerleme/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛰️ [Kokpit](https://github.com/berkdemir18/Kokpit)
+
+Film/dizi takibi, notlar, hedefler ve hatırlatıcılar için masaüstü uygulaması. Yukarıdaki planın ilerlemesini de burada tutuyorum.
+
+`Tauri v2` `TypeScript` `Rust` `MCP`
+
+- Tepside çalışan bildirimler
+- Yapay zekâ asistanım veriyi salt-okunur bir MCP sunucusundan okuyor
+
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/Kokpit?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/Kokpit/releases/latest)
 ![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
 
 </td>
@@ -133,37 +197,16 @@ Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutu
 
 ### 🛡️ [Siber Yol Haritası](https://github.com/berkdemir18/siber-yol-haritasi)
 
-Yukarıdaki planın interaktif hâli. Kendi ilerlememi görmek için yaptım, açık bıraktım.
+Yukarıdaki planın interaktif hâli. Tek dosya, tarayıcıda açılıyor.
 
 `HTML` `CSS` `JS`
 
-- Tek dosya, kurulum yok
-- Tarayıcıda açılıyor
-
-![web](https://img.shields.io/badge/web-00E5FF?style=flat-square&labelColor=0d1117)
-
 </td>
-<td width="50%" valign="top">
-
-### 🛰️ [Kokpit](https://github.com/berkdemir18/Kokpit)
-
-Notlar, hedefler ve hatırlatıcılar için masaüstü uygulaması. Yukarıdaki planın ilerlemesini de burada tutuyorum.
-
-`Tauri v2` `TypeScript` `Rust`
-
-- Tepside çalışan bildirimler
-- Kurulumsuz taşınabilir sürüm
-
-![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🍦 [Dondurma Sitesi](https://github.com/berkdemir18/berkin-dondurma-sitesi)
 
-Arayüz denemesi için küçük bir site.
+Arayüz denemesi için yaptığım ilk küçük site.
 
 `TypeScript`
 
@@ -173,30 +216,45 @@ Arayüz denemesi için küçük bir site.
 
 ---
 
+## `>_ tail -n 5 yayinlar.log`
+
+<!-- YAYINLAR:BASLA -->
+```text
+  13 Eyl 2026   DemirTube     v0.11.3
+  13 Eyl 2026   DemirTube     v0.11.2
+  10 Eyl 2026   ilerleme      v1.0
+  09 Eyl 2026   Ajanda        v1.0.0
+  25 Ağu 2026   DemirTube     v0.11.1
+```
+<!-- YAYINLAR:BITIR -->
+
+---
+
 ## `>_ dil dağılımı`
 
+<!-- DILLER:BASLA -->
 ```text
 ┌─ depolardaki dil dağılımı ─────────────────────────────────┐
 │                                                            │
-│  TypeScript  █████████████████████████░░░░░░░░░░░  70.0 %  │
-│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13.1 %  │
-│  Rust        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.5 %  │
-│  JavaScript  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6.0 %  │
-│  HTML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.5 %  │
+│  TypeScript  █████████████████████████░░░░░░░░░░░   69,2 % │
+│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13,0 % │
+│  Rust        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    9,1 % │
+│  JavaScript  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5,4 % │
+│  HTML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3,2 % │
+│  Diğer       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0,2 % │
 │                                                            │
-└─ toplam ~2,1 MB · 6 depo ──────────────────────────────────┘
+└─ toplam ~2,7 MB · 8 depo ──────────────────────────────────┘
 ```
+<!-- DILLER:BITIR -->
 
 > Bu tablo depoların içeriğini gösterir, benim bildiğim dilleri değil.
 > Yukarıdaki kodu ben yazmadım.
 
+<sub>Son iki bölüm her gün kendiliğinden güncelleniyor.</sub>
+
 ---
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=berkdemir18&theme=high-contrast&hide_border=true&bg_color=0d1117&color=00FF41&line=00E5FF&point=ffffff&area=true&area_color=00FF41" width="100%" />
-
-<br/>
 
 <img src="https://raw.githubusercontent.com/berkdemir18/berkdemir18/output/snake-dark.svg" width="100%" alt="katki yilani" />
 
