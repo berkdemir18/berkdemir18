@@ -82,6 +82,62 @@ def small(name, desc):
 .a{{position:absolute;right:26px;top:30px;font-size:20px;font-weight:800}}</style>
 <div class="h g">{name}</div><div class="a g">↗</div><div class="d">{desc}</div></div>"""
 
+
+def heading(no, title, sub):
+    return f"""<div class="card" style="width:1200px;height:110px;border:none;background:transparent">
+<style>.card::after{{display:none}}
+.hd{{position:absolute;left:8px;right:8px;bottom:22px;display:flex;align-items:baseline;gap:18px}}
+.hd .n{{color:var(--rust);font-size:13px}}
+.hd .t{{font-size:44px;font-weight:800;letter-spacing:-.035em;color:#8C7E66}}
+.hd .s{{margin-left:auto;font-size:12px;color:#8C7E66}}
+.ln{{position:absolute;left:8px;right:8px;bottom:8px;border-top:2px dashed #8C7E66;opacity:.55}}</style>
+<div class="hd"><span class="m n">{no}</span><span class="t g">{title}</span><span class="m s">{sub}</span></div><div class="ln"></div></div>"""
+
+STEPS = [
+    ("fikir", "01", "Fikir", "Bir şey canımı sıkıyor. Windows araması mesela."),
+    ("tabela", "02", "Tarif", "Ne istediğimi anlatıyorum. Uzun uzun."),
+    ("laptop", "03", "Çırak yazar", "Kodu yapay zekâ yazıyor. Ben çay koyuyorum."),
+    ("facepalm", "04", "Olmamış", "Deniyorum, beğenmiyorum, geri yolluyorum."),
+    ("oldu", "05", "Oldu", "Her gün kullanıyorsam yayına çıkıyor."),
+]
+
+def process():
+    cols = "".join(f"""<div class="st"><div class="im" style="background-image:url({b64('img/' + k + '.png')})"></div>
+<div class="m n">{n}</div><div class="h g">{t}</div><div class="d">{d}</div></div>""" for k, n, t, d in STEPS)
+    return f"""<div class="card" style="width:1200px;height:520px">
+<style>
+.row{{position:absolute;left:30px;right:30px;top:40px;display:flex;gap:16px}}
+.st{{flex:1;position:relative}}
+.im{{height:210px;background:center bottom/contain no-repeat}}
+.st:nth-child(2) .im{{position:relative}}
+.n{{color:var(--rust);margin-top:22px;font-size:11px}}
+.h{{font-size:30px;font-weight:800;letter-spacing:-.03em;margin-top:6px}}
+.d{{font-size:14.5px;line-height:1.5;color:var(--soft);margin-top:8px;padding-right:6px}}
+.sign{{position:absolute;left:30px;top:44px;width:208px;text-align:center;font-family:'Bricolage Grotesque';font-weight:800;font-size:15px;line-height:1.1;transform:translateX(0)}}
+.loop{{position:absolute;left:500px;right:270px;bottom:46px;height:46px;border:2.5px dashed var(--rust);border-top:none;border-radius:0 0 26px 26px}}
+.loop::before{{content:"";position:absolute;left:-9px;top:-10px;border:8px solid transparent;border-bottom:12px solid var(--rust);border-top:none}}
+.lt{{position:absolute;left:0;right:0;bottom:-30px;text-align:center;color:var(--rust);font-size:11px}}
+</style>
+<div class="row">{cols}</div>
+<div class="sign" style="left:306px;top:58px;width:138px">ŞÖYLE<br>OLSUN</div>
+<div class="loop"><div class="lt m">↺ gerektiği kadar tur</div></div>
+</div>"""
+
+def stats():
+    nums = [("8", "proje"), ("12", "sürüm"), ("61", "commit"), ("0", "satır elle kod")]
+    cells = "".join(f'<div class="c"><div class="v g">{v}</div><div class="m l">{l}</div></div>' for v, l in nums)
+    return f"""<div class="card" style="width:1200px;height:230px">
+<style>.cay{{position:absolute;right:40px;bottom:-6px;width:210px;height:230px;background:url({b64('img/cay.png')}) center bottom/contain no-repeat}}
+.cs{{position:absolute;left:40px;right:290px;top:46px;display:flex}}
+.c{{flex:1;border-left:2px dashed var(--line);padding-left:22px}}
+.c:first-child{{border:none;padding-left:0}}
+.v{{font-size:84px;font-weight:800;letter-spacing:-.05em;line-height:.9}}
+.c:last-child .v{{color:var(--rust)}}
+.l{{margin-top:12px;color:var(--soft);font-size:11px}}
+.nt{{position:absolute;left:40px;bottom:24px;color:var(--soft);font-size:10.5px}}</style>
+<div class="cs">{cells}</div><div class="cay"></div>
+<div class="nt m">Ekim 2026 itibarıyla · public repolar</div></div>"""
+
 def foot():
     return f"""<div class="card" style="width:1200px;height:240px">
 <style>.z{{position:absolute;left:40px;bottom:-34px;width:250px;height:250px;background:url({b64('img/uyuyor.png')}) center/contain no-repeat}}
@@ -94,7 +150,7 @@ def foot():
 <div class="r m">Demir: maskot.<br>Çizimler yapay zekâ ile.</div>
 </div>"""
 
-JOBS = [("banner", banner())] + [(f"p-{p[0].lower()}", card(*p)) for p in PROJ] + \
+JOBS = [("banner", banner()), ("h-isler", heading("01", "İşler", "Her gün kullandıklarım")), ("h-kucukler", heading("02", "Küçükler", "Bir derdi çözen ufak şeyler")), ("h-surec", heading("03", "Nasıl çıkıyor", "Kod yok, tarif var")), ("surec", process()), ("rakam", stats())] + [(f"p-{p[0].lower()}", card(*p)) for p in PROJ] + \
        [(f"s-{n.replace('İ','I').lower()}", small(n, d)) for n, d in SMALL] + [("son", foot())]
 
 async def main():
@@ -102,7 +158,7 @@ async def main():
         b = await p.chromium.launch(executable_path=r"C:\Program Files\Google\Chrome\Application\chrome.exe")
         pg = await b.new_page(viewport={"width": 1300, "height": 800}, device_scale_factor=2)
         for key, html in JOBS:
-            await pg.set_content(f"<html><head>{HEAD}</head><body>{html}</body></html>", wait_until="networkidle")
+            await pg.set_content(f"<html lang='tr'><head>{HEAD}</head><body>{html}</body></html>", wait_until="networkidle")
             await pg.evaluate("document.fonts.ready")
             png = OUT / f"{key}.png"
             await (await pg.query_selector(".card")).screenshot(path=str(png), omit_background=True)

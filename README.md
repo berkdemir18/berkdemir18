@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+<img src="assets/h-isler.webp" width="98.6%" alt="01 — İşler">
+</p>
+
+<p align="center">
 <a href="https://berkdemir18.github.io/kukreme/"><img src="assets/p-kukreme.webp" width="49%" alt="Kükreme"></a>
 <a href="https://berkdemir18.github.io/akilli-urun-siralama/"><img src="assets/p-akilli-urun-siralama.webp" width="49%" alt="Akıllı Ürün Sıralama"></a>
 </p>
@@ -13,6 +17,10 @@
 </p>
 
 <p align="center">
+<img src="assets/h-kucukler.webp" width="98.6%" alt="02 — Küçükler">
+</p>
+
+<p align="center">
 <a href="https://github.com/berkdemir18/DemirTube"><img src="assets/s-demirtube.webp" width="49%" alt="DemirTube"></a>
 <a href="https://github.com/berkdemir18/agents-sync"><img src="assets/s-agents-sync.webp" width="49%" alt="agents-sync"></a>
 </p>
@@ -20,6 +28,18 @@
 <p align="center">
 <a href="https://github.com/berkdemir18/Kokpit"><img src="assets/s-kokpit.webp" width="49%" alt="Kokpit"></a>
 <a href="https://github.com/berkdemir18/ilerleme"><img src="assets/s-ilerleme.webp" width="49%" alt="İlerleme"></a>
+</p>
+
+<p align="center">
+<img src="assets/h-surec.webp" width="98.6%" alt="03 — Nasıl çıkıyor">
+</p>
+
+<p align="center">
+<img src="assets/surec.webp" width="98.6%" alt="Fikir, tarif, çırak yazar, olmamış, oldu">
+</p>
+
+<p align="center">
+<img src="assets/rakam.webp" width="98.6%" alt="8 proje, 12 sürüm, 61 commit, 0 satır elle kod">
 </p>
 
 <p align="center">
