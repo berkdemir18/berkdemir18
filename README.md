@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sohbet-dark.svg"><img src="assets/sohbet-light.svg" width="98.6%" alt="Berk ile kısa sohbet"></picture>
-</p>
-
-<p align="center">
 <a href="https://berkdemir18.github.io/kukreme/"><img src="assets/p-kukreme.webp" width="49%" alt="Kükreme"></a>
 <a href="https://berkdemir18.github.io/akilli-urun-siralama/"><img src="assets/p-akilli-urun-siralama.webp" width="49%" alt="Akıllı Ürün Sıralama"></a>
 </p>

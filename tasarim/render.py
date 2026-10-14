@@ -17,17 +17,17 @@ HEAD = """<meta charset="utf-8">
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{background:transparent}
 .card{position:relative;overflow:hidden;background:var(--paper);color:var(--ink);border:2.5px solid var(--ink);border-radius:20px;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased}
-.card::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;mix-blend-mode:multiply;
+.card::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;
  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/><feColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .25 0 0 0 .35 0'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>")}
 .g{font-family:'Bricolage Grotesque',sans-serif}
 .m{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
 </style>"""
 
 def banner():
-    return f"""<div class="card" style="width:1200px;height:520px">
+    return f"""<div class="card" style="width:1200px;height:520px;background:#F0D9B8">
 <style>
-.img{{position:absolute;right:-30px;top:-10px;width:760px;height:540px;background:url({b64('img/oda.png')}) center/cover;
-  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 22%)}}
+.img{{position:absolute;right:0;top:0;width:680px;height:520px;background:url({b64('img/ciraklar.png')}) right center/auto 100% no-repeat;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 8%)}}
 .l{{position:absolute;left:52px;top:48px;width:560px}}
 .k{{color:var(--soft)}}
 .n{{font-size:132px;line-height:.86;font-weight:800;letter-spacing:-.045em;margin-top:26px}}
@@ -37,11 +37,11 @@ def banner():
 .cap{{position:absolute;right:28px;bottom:22px;background:var(--ink);color:var(--paper);padding:7px 12px;border-radius:8px;font-size:11px}}
 </style>
 <div class="img"></div>
-<div class="l"><div class="m k">Berk Demir · Ankara · YBS</div>
+<div class="l"><div class="m k">github.com/berkdemir18</div>
 <div class="n g">Berk.</div>
 <div class="s g">Kod yazmıyorum.<br><span>Yazdırıyorum.</span></div>
 <div class="p">Ne istediğimi yapay zekâya anlatıyorum, beğenmezsem geri yolluyorum. Çok geri yolluyorum. Sonunda her gün kullandığım bir şey çıkıyor.</div></div>
-<div class="cap m">Fig. 1 — Demir, benim odamda, benim yerime çalışırken</div>
+<div class="cap m">Fig. 1 — Demir, çıraklarına iş yaptırırken</div>
 </div>"""
 
 PROJ = [
@@ -85,14 +85,13 @@ def small(name, desc):
 def foot():
     return f"""<div class="card" style="width:1200px;height:240px">
 <style>.z{{position:absolute;left:40px;bottom:-34px;width:250px;height:250px;background:url({b64('img/uyuyor.png')}) center/contain no-repeat}}
-.t{{position:absolute;left:300px;top:62px;font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1.05}}
+.t{{position:absolute;left:300px;top:76px;font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1.05}}
 .t span{{color:var(--rust)}}
 .s{{position:absolute;left:302px;top:160px;color:var(--soft)}}
 .r{{position:absolute;right:40px;bottom:30px;text-align:right;color:var(--soft);font-size:11px}}</style>
 <div class="z"></div>
 <div class="t g">Demir uyuyor.<br><span>Yeni proje gelince uyanır.</span></div>
-<div class="s m">Beşiktaş · Ferrari · Valorant Plat · 202 film/dizi</div>
-<div class="r m">Demir: Berk'in maskotu.<br>Çizimler yapay zekâ ile, fikir benden.</div>
+<div class="r m">Demir: maskot.<br>Çizimler yapay zekâ ile.</div>
 </div>"""
 
 JOBS = [("banner", banner())] + [(f"p-{p[0].lower()}", card(*p)) for p in PROJ] + \
