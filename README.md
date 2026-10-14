@@ -99,6 +99,38 @@ Hepsi yapay zekâ ile yapıldı. Fikir, "şöyle olsun" ve deneme kısmı bana a
 <tr>
 <td width="50%" valign="top">
 
+### 🏎️ [Kükreme](https://github.com/berkdemir18/kukreme)
+
+Tesla'da gaz ve frene anında tepki veren gerçek motor sesi. Web Audio API, ivmeölçer + GPS füzyonu ve gerçek dyno ses kayıtları.
+
+`JavaScript` `Web Audio API` `Sensör Füzyonu`
+
+- Gerçek dyno kayıtlarıyla devir simülasyonu
+- Gaz/fren tepkisine göre anında ses tonlaması ve kesici
+
+[![site](https://img.shields.io/badge/canl%C4%B1%20site-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/kukreme/)
+![MIT](https://img.shields.io/badge/MIT-00FF41?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛒 [Akıllı Ürün Sıralama](https://github.com/berkdemir18/akilli-urun-siralama)
+
+Hepsiburada, Trendyol ve Amazon TR'de ürünleri yıldıza değil kanıta göre sıralayan Chrome eklentisi.
+
+`JavaScript` `Chrome Extension` `Manifest V3`
+
+- Az yorumlu şişirilmiş puanları ve sahte indirimleri eliyor
+- Veri dışarı çıkmıyor, tüm analiz cihazda çalışıyor
+
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/akilli-urun-siralama?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/akilli-urun-siralama/releases/latest)
+[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/akilli-urun-siralama/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 📺 [DemirTube](https://github.com/berkdemir18/DemirTube)
 
 YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çıkmıyor. Ne kadarını gerçekten izlediğimi, neye pişman olduğumu ve bir videonun bana uyup uymadığını söylüyor.
@@ -114,17 +146,17 @@ YouTube izleme alışkanlığımı ölçen Chrome eklentisi. Veri cihazdan çık
 </td>
 <td width="50%" valign="top">
 
-### 🔎 [File Finder](https://github.com/berkdemir18/File-Finder)
+### ✅ [İlerleme](https://github.com/berkdemir18/ilerleme)
 
-Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutuyor, o yüzden hızlı.
+Kurs, kitap, proje ne takip ediyorsan tahta aç, maddeleri yapıştır, tik at. 14 gün dokunulmayan tahtaya "soğumuş" damgası basıyor.
 
-`Rust` `Tauri v2` `React` `SQLite`
+`Python` `HTML`
 
-- ~5 milyon dosyada saniyenin altında arama
-- Arka planda çalışan servis + masaüstü uygulaması
+- Tek exe, kurulum yok
+- Veri düz metin JSON, her yazmada yedek
 
-[![sürüm](https://img.shields.io/github/v/release/berkdemir18/File-Finder?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/File-Finder/releases/latest)
-[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/File-Finder/)
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/ilerleme?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/ilerleme/releases/latest)
+[![demo](https://img.shields.io/badge/canl%C4%B1%20deneme-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/ilerleme/)
 
 </td>
 </tr>
@@ -163,17 +195,17 @@ Windows için kişisel takvim. Etkinlikler bilgisayardaki bir SQLite dosyasında
 <tr>
 <td width="50%" valign="top">
 
-### ✅ [İlerleme](https://github.com/berkdemir18/ilerleme)
+### 🔎 [File Finder](https://github.com/berkdemir18/File-Finder)
 
-Kurs, kitap, proje ne takip ediyorsan tahta aç, maddeleri yapıştır, tik at. 14 gün dokunulmayan tahtaya "soğumuş" damgası basıyor.
+Windows'ta dosya arama aracı. NTFS'in kendi kayıt tablosunu okuyup indeks tutuyor, o yüzden hızlı.
 
-`Python` `HTML`
+`Rust` `Tauri v2` `React` `SQLite`
 
-- Tek exe, kurulum yok
-- Veri düz metin JSON, her yazmada yedek
+- ~5 milyon dosyada saniyenin altında arama
+- Arka planda çalışan servis + masaüstü uygulaması
 
-[![sürüm](https://img.shields.io/github/v/release/berkdemir18/ilerleme?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/ilerleme/releases/latest)
-[![demo](https://img.shields.io/badge/canl%C4%B1%20deneme-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/ilerleme/)
+[![sürüm](https://img.shields.io/github/v/release/berkdemir18/File-Finder?style=flat-square&label=s%C3%BCr%C3%BCm&color=00FF41&labelColor=0d1117)](https://github.com/berkdemir18/File-Finder/releases/latest)
+[![site](https://img.shields.io/badge/tan%C4%B1t%C4%B1m-00E5FF?style=flat-square&labelColor=0d1117)](https://berkdemir18.github.io/File-Finder/)
 
 </td>
 <td width="50%" valign="top">
@@ -220,11 +252,11 @@ Arayüz denemesi için yaptığım ilk küçük site.
 
 <!-- YAYINLAR:BASLA -->
 ```text
+  30 Eyl 2026   akilli-urun-siralama v3.0.1
+  30 Eyl 2026   akilli-urun-siralama v3.0.0
   15 Eyl 2026   DemirTube     v0.12.0
   13 Eyl 2026   DemirTube     v0.11.3
   13 Eyl 2026   DemirTube     v0.11.2
-  10 Eyl 2026   ilerleme      v1.0
-  09 Eyl 2026   Ajanda        v1.0.0
 ```
 <!-- YAYINLAR:BITIR -->
 
@@ -236,14 +268,14 @@ Arayüz denemesi için yaptığım ilk küçük site.
 ```text
 ┌─ depolardaki dil dağılımı ─────────────────────────────────┐
 │                                                            │
-│  TypeScript  ██████████████████████████░░░░░░░░░░   71,9 % │
-│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13,5 % │
-│  Rust        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    8,3 % │
-│  JavaScript  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5,0 % │
-│  HTML        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1,2 % │
+│  TypeScript  ████████████████████████░░░░░░░░░░░░   67,6 % │
+│  CSS         █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13,3 % │
+│  JavaScript  ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    9,3 % │
+│  Rust        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    7,8 % │
+│  HTML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1,8 % │
 │  Diğer       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0,2 % │
 │                                                            │
-└─ toplam ~2,9 MB · 8 depo ──────────────────────────────────┘
+└─ toplam ~3,1 MB · 10 depo ─────────────────────────────────┘
 ```
 <!-- DILLER:BITIR -->
 

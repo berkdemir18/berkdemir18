@@ -2,7 +2,18 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const KULLANICI = "berkdemir18";
-const DEPOLAR = ["DemirTube", "File-Finder", "Ajanda", "agents-sync", "ilerleme", "Kokpit", "siber-yol-haritasi", "berkin-dondurma-sitesi"];
+const DEPOLAR = [
+  "kukreme",
+  "akilli-urun-siralama",
+  "DemirTube",
+  "ilerleme",
+  "Ajanda",
+  "agents-sync",
+  "File-Finder",
+  "Kokpit",
+  "siber-yol-haritasi",
+  "berkin-dondurma-sitesi",
+];
 const token = process.env.GITHUB_TOKEN;
 
 async function api(yol) {
