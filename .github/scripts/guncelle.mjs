@@ -11,8 +11,7 @@ const DEPOLAR = [
   "agents-sync",
   "File-Finder",
   "Kokpit",
-  "siber-yol-haritasi",
-  "berkin-dondurma-sitesi",
+  "BerkStream-Hub",
 ];
 const token = process.env.GITHUB_TOKEN;
 
@@ -40,7 +39,11 @@ for (const depo of DEPOLAR) {
   for (const y of liste) if (!y.draft && !y.prerelease) yayinlar.push({ depo, etiket: y.tag_name, tarih: y.published_at });
 }
 yayinlar.sort((a, b) => b.tarih.localeCompare(a.tarih));
-const yayinBlok = ["```text", ...yayinlar.slice(0, 5).map((y) => `  ${tarih(y.tarih)}   ${bosluk(y.depo, 13)} ${y.etiket}`), "```"].join("\n");
+const yayinBlok = [
+  "| | proje | sürüm |",
+  "|---|---|---|",
+  ...yayinlar.slice(0, 5).map((y) => `| <sub>${tarih(y.tarih)}</sub> | [${y.depo}](https://github.com/${KULLANICI}/${y.depo}) | [\`${y.etiket}\`](https://github.com/${KULLANICI}/${y.depo}/releases/tag/${encodeURIComponent(y.etiket)}) |`),
+].join("\n");
 
 // --- dil dağılımı
 const toplam = {};
