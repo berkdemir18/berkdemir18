@@ -1,4 +1,4 @@
-# Profil görsellerini çizer: python tasarim/render.py assets  (Playwright + Chrome gerekir; shots/ yanında olmalı)
+# Profil görsellerini çizer: python tasarim/render.py assets/v6  (Playwright + Chrome gerekir; shots/ yanında olmalı. Tasarım değişince klasör adını artır: GitHub aynı adlı görseli önbellekten verir)
 # Tek tema: koyu terminal. GitHub'ın açık temasında da terminal penceresi gibi durur.
 import asyncio, base64, pathlib, sys
 from playwright.async_api import async_playwright
