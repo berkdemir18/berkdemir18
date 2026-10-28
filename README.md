@@ -1,9 +1,13 @@
 <p align="center">
-<img src="assets/banner.webp" width="98.6%" alt="Berk. Kod yazmıyorum, yazdırıyorum.">
+<img src="assets/banner.webp" width="98.6%" alt="berk — Kod yazmıyorum, yazdırıyorum.">
 </p>
 
 <p align="center">
-<img src="assets/h-isler.webp" width="98.6%" alt="01 — İşler">
+<a href="https://berkdemir18.github.io/berkos/"><img src="assets/hero-berkos.webp" width="98.6%" alt="BerkOS — Google TV için sakin bir ana ekran"></a>
+</p>
+
+<p align="center">
+<img src="assets/h-isler.webp" width="98.6%" alt="01 — işler">
 </p>
 
 <p align="center">
@@ -17,7 +21,7 @@
 </p>
 
 <p align="center">
-<img src="assets/h-kucukler.webp" width="98.6%" alt="02 — Küçükler">
+<img src="assets/h-kucukler.webp" width="98.6%" alt="02 — küçükler">
 </p>
 
 <p align="center">
@@ -31,17 +35,17 @@
 </p>
 
 <p align="center">
-<img src="assets/h-surec.webp" width="98.6%" alt="03 — Nasıl çıkıyor">
+<img src="assets/h-surec.webp" width="98.6%" alt="03 — süreç">
 </p>
 
 <p align="center">
-<img src="assets/surec.webp" width="98.6%" alt="Fikir, tarif, çırak yazar, olmamış, oldu">
+<img src="assets/surec.webp" width="98.6%" alt="Fikir, tarif, ajan yazar, dene ve tara, ship">
 </p>
 
 <p align="center">
-<img src="assets/rakam.webp" width="98.6%" alt="8 proje, 12 sürüm, 61 commit, 0 satır elle kod">
+<img src="assets/rakam.webp" width="98.6%" alt="9 proje, 13 sürüm, 63 commit, 0 satır elle kod">
 </p>
 
 <p align="center">
-<img src="assets/son.webp" width="98.6%" alt="Demir uyuyor. Yeni proje gelince uyanır.">
+<img src="assets/son.webp" width="98.6%" alt="oturum kapandı. yeni proje gelince tekrar bağlanır.">
 </p>
