@@ -104,14 +104,14 @@ def hero():
 </div>"""
 
 PROJ = [
-    ("kukreme", "Kükreme", "tesla çok sessizdi. artık değil.", "Gaza bastıkça gerçek motor sesi: ivmeölçer ve GPS'ten devri tahmin edip dyno kayıtlarını çalıyor.", ["web audio", "sensör"], None),
-    ("akilli-urun-siralama", "Akıllı Ürün Sıralama", "tek yorumlu 5 yıldıza inanma.", "Trendyol, Hepsiburada ve Amazon'da ürünleri yorum sayısı, fiyat ve satıcıya göre yeniden diziyor.", ["chrome", "mv3"], None),
+    ("DemirTube", "DemirTube", "youtube'a ne kadar ömür verdim?", "İzleme geçmişini sadece cihazında tutup analiz eden Chrome eklentisi: süre bütçesi, pişmanlık oranı, kanal karnesi.", ["chrome", "react"], "veri cihazda"),
+    ("agents-sync", "agents-sync", "ajanlar olmayan dosyaya bakıyordu.", "CLAUDE.md, AGENTS.md ve .cursorrules içindeki kırık dosya yollarını bulan, doğrusunu öneren linter.", ["node", "cli"], None),
     ("File-Finder", "File Finder", "windows aramasını beklemekten yaşlandım.", "NTFS'in kayıt tablosunu okuyup 5 milyon dosya arasında saniyenin altında buluyor.", ["rust", "tauri"], "çevrimdışı"),
     ("Ajanda", "Ajanda", "takvimim bende dursun.", "Bilgisayarda tek dosya, Google Takvim'le iki yönlü senkron. “cuma 14:30 vize” yaz, gerisini o halleder.", ["tauri", "sqlite"], "veri cihazda"),
 ]
 SMALL = [
-    ("DemirTube", "YouTube'a ne kadar ömür verdiğimi söyleyen eklenti. Bazen söylemese daha iyi.", "veri cihazda"),
-    ("agents-sync", "Yapay zekâ ajanlarının okuduğu dosyalarda kırık yolları bulan linter.", None),
+    ("Kükreme", "Tesla'da gaza bastıkça gerçek motor sesi. Tesla çok sessizdi, artık değil.", None),
+    ("Akıllı-Ürün", "Trendyol, Hepsiburada, Amazon'da ürünleri yıldıza değil kanıta göre dizer.", None),
     ("Kokpit", "Film, dizi, not, hedef. Hepsi tek yerde, hiçbiri yapılmamış.", "veri cihazda"),
     ("İlerleme", "Kurs, kitap, proje. 14 gün dokunmazsan “soğumuş” der, haklıdır da.", None),
 ]
@@ -203,7 +203,7 @@ JOBS = [("banner", banner()), ("hero-berkos", hero()),
         ("h-isler", heading("01", "isler", "her gün kullandıklarım")), ("h-kucukler", heading("02", "kucukler", "bir derdi çözen ufak şeyler")),
         ("h-surec", heading("03", "surec", "kod yok, tarif var")), ("surec", process()), ("rakam", stats())] + \
        [(f"p-{p[0].lower()}", card(*p)) for p in PROJ] + \
-       [(f"s-{n.replace('İ','I').lower()}", small(*s)) for s in SMALL for n in [s[0]]] + [("son", foot())]
+       [("s-" + s[0].translate(str.maketrans("İıüÜşŞçÇğĞöÖ", "iiuussccggoo")).lower(), small(*s)) for s in SMALL] + [("son", foot())]
 
 async def main():
     async with async_playwright() as p:
